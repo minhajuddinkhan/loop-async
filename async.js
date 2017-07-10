@@ -1,27 +1,13 @@
 
-let func = (i) => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-        console.log('yo');
-        resolve();
-    },500)
-
-})
-}
-
-let arr = [1,2,3];
-
-function processArray(array, fn) {
-    var index = 0;
-
-    function next() {
-        if (index < array.length) {
-            fn(array[index++]).then(next);
+module.exports = function() {
+    Array.prototype.foreachPromise = function (fn) {
+        let index = 0;
+        let self = this;
+        function next() {
+            if( index < self.length) {
+                fn(self[index++]).then(next)
+            }
         }
+        next();
     }
-    next();
 }
-
-
-
-processArray(arr,func);

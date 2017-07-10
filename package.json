@@ -1,0 +1,27 @@
+{
+  "name": "loop-async",
+  "version": "1.0.0",
+  "description": "loop with async behaviour",
+  "main": "async.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhajuddinkhan/loop-async.git"
+  },
+  "keywords": [
+    "async",
+    "loop",
+    "promises",
+    "wait",
+    "resolve",
+    "foreach"
+  ],
+  "author": "minhajuddinkhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhajuddinkhan/loop-async/issues"
+  },
+  "homepage": "https://github.com/minhajuddinkhan/loop-async#readme"
+}
