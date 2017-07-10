@@ -10,6 +10,8 @@
 
 ##### where ```Promise.all``` fails.
 
+Somewhere between ```Promise.all``` and sequenced ```then``` chaining.
+
 A handy equivalent for looping through async methods/calls partially dependent on each other.
 As shown in the example. the second request should only be made when the first request is resolved.
 
