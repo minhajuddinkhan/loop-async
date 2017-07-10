@@ -1,5 +1,5 @@
 # loop-async
-javascript loop with async behaviour
+#### Javascript loop with async behaviour
 
 # Use case
 
