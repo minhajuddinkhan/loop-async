@@ -1,6 +1,11 @@
 # loop-async
 #### Javascript loop with async behaviour
 
+# Installation
+
+```   npm install loop-async --save  ```
+
+
 # Use case
 
 A handy equivalent for looping through async methods/calls partially dependent on each other.
@@ -31,9 +36,6 @@ will be equivalent to
 });
 ```
 
-# Installation
-
-```   npm install loop-async --save  ```
 
 # Usage
 
@@ -42,3 +44,7 @@ require('loop-async')();
 ```
 
 Just require it and call its constructor in your code. Yep, its that simple.
+
+# test
+
+``` npm test ```
