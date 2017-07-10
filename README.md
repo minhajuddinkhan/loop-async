@@ -8,6 +8,8 @@
 
 # Use case
 
+##### where ```Promise.all``` fails.
+
 A handy equivalent for looping through async methods/calls partially dependent on each other.
 As shown in the example. the second request should only be made when the first request is resolved.
 
