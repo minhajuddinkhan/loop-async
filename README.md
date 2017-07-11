@@ -7,8 +7,7 @@
 
 # Installation
 
-```javascript 
-
+``` 
 npm i loop-async -S
 
 ```
