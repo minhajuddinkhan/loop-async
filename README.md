@@ -9,7 +9,6 @@
 
 ``` 
 npm i loop-async -S
-
 ```
 
 # Use case
