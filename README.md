@@ -2,15 +2,16 @@
 
 # loop-async
 
-<img align="right" width="100" height="100" src="http://nodejs-cloud.com/img/128px/nodejs.png">
-
 
 #### Javascript loop with async behaviour
 
 # Installation
 
-```   npm install loop-async --save  ```
+```javascript 
 
+npm i loop-async -S
+
+```
 
 # Use case
 
