@@ -54,6 +54,6 @@ require('loop-async')();
 
 Just require it and call its constructor in your code. Yep, its that simple.
 
-# test
+# Test
 
 ``` npm test ```
